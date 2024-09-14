@@ -11,9 +11,10 @@ const TracingBeamDemo = () => {
       <div className="absolute inset-0 z-0">
         <ShootingStarsAndStarsBackgroundDemo />
       </div>
+     
 
       {/* TracingBeam positioned absolutely on the left side */}
-      <TracingBeam className="absolute left-0 top-0 h-full z-20 w-1/5">
+      <TracingBeam className="absolute left-20 top-0 h-full z-20 w-1/5">
         <div className="px-6 mt-0 h-full flex flex-col">
           {/* FloatingDockDemo component positioned above the stars background */}
           <div className="relative z-10">
