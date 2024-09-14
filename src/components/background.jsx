@@ -12,7 +12,7 @@ export function ShootingStarsAndStarsBackgroundDemo() {
       <ShootingStars className="relative z-10" />
 
       {/* Circular Image */}
-      <div className="absolute inset-0 flex items-center justify-center">
+      <div className="absolute inset-0 flex items-center justify-center ">
         <FlipWordsDemo/>
         <div className="ml-96 w-96 h-96 absolute right-10">
           <img

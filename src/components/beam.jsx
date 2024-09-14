@@ -15,9 +15,9 @@ const TracingBeamDemo = () => {
 
       {/* TracingBeam positioned absolutely on the left side */}
       <TracingBeam className="absolute left-20 top-0 h-full z-20 w-1/5">
-        <div className="px-6 mt-0 h-full flex flex-col">
+        <div className="px-6  h-full flex flex-col mt-10">
           {/* FloatingDockDemo component positioned above the stars background */}
-          <div className="relative z-10">
+          <div className="relative mt-10 z-10">
             <FloatingDockDemo />
           </div>
         </div>

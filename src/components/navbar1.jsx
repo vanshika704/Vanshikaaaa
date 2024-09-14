@@ -63,7 +63,7 @@ export function FloatingDockDemo() {
   ];
 
   return (
-    <div className="fixed top-0 left-1/2 transform -translate-x-1/2 w-full flex justify-center p-2">
+    <div className="fixed top-5 left-1/2 transform -translate-x-1/2 w-full flex justify-center p-2">
       <div className="flex items-center space-x-4 bg-gray-50 dark:bg-neutral-900 rounded-full shadow-sm shadow-white p-2">
         <FloatingDock items={links} />
       </div>
