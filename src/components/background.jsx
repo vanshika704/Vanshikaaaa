@@ -1,10 +1,10 @@
 "use client";
 
-
 import { FlipWordsDemo } from "./iam";
 import ShootingStars from "./shooting-stars";
 import StarsBackground from "./stars-baackground";
 
+import { TracingBeam } from "./tracing-beam";
 export function ShootingStarsAndStarsBackgroundDemo() {
   return (
     <div
@@ -16,7 +16,8 @@ export function ShootingStarsAndStarsBackgroundDemo() {
       <ShootingStars className="relative z-10" />
 
       {/* Content */}
-      <div className="absolute inset-0 flex flex-col lg:flex-row p-4">
+      <div className="absolute inset-0 flex flex-col lg:flex-row p-4 z-20">
+      <TracingBeam className="fixed left-20 top-0 h-full z-50 w-10" />
         <FlipWordsDemo />
 
         {/* Circular Image */}
