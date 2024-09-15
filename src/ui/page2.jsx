@@ -17,7 +17,16 @@ function Page2() {
       {/* LensDemoThird positioned above the background */}
       <div className="absolute inset-0 flex items-center  z-20">
         <LensDemoThird />
+
       </div>
+      <hr 
+  style={{
+    boxShadow: '0 4px 15px rgba(255, 255, 255, 1)', // Strong white shadow
+    border: 'none', // Remove default border
+    height: '1px',  // Set your desired hr height
+    // Make the hr itself white
+  }}
+/>
     </div>
   );
 }
