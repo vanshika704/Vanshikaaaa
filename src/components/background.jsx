@@ -16,7 +16,7 @@ export function ShootingStarsAndStarsBackgroundDemo() {
       <ShootingStars className="relative z-10" />
 
       {/* Content */}
-      <div className="absolute inset-0 flex flex-col lg:flex-row p-4 z-20">
+      <div className="absolute inset-0 flex flex-col lg:flex-row p-4 z-20" >
       <TracingBeam className="fixed left-20 top-0 h-full z-50 w-10" />
         <FlipWordsDemo />
 
@@ -29,6 +29,15 @@ export function ShootingStarsAndStarsBackgroundDemo() {
           />
         </div>
       </div>
+      <hr 
+  style={{
+    boxShadow: '0 4px 15px rgba(255, 255, 255, 1)', // Strong white shadow
+    border: 'none', // Remove default border
+    height: '2px',  // Set your desired hr height
+    backgroundColor: 'white' // Make the hr itself white
+  }}
+/>
+
 
       {/* Page2 Component */}
      
