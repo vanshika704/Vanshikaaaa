@@ -8,18 +8,14 @@ function Page2() {
   return (
     <div
       className="relative w-full"
-      style={{ height: '100vh' }} // Full viewport height
+      style={{ height: '100vh' }} // 4 times the viewport height
     >
       {/* Background components */}
       <StarsBackground className="absolute inset-0 w-full h-full" />
       <ShootingStars className="relative z-10" />
       
-      {/* Container for LensDemoThird and hr */}
-      <div className="absolute inset-0 flex flex-col items-center justify-center z-20 space-y-4">
-        {/* Horizontal rule with shadow */}
-       
-        
-        {/* LensDemoThird positioned below the hr */}
+      {/* LensDemoThird positioned above the background */}
+      <div className="absolute inset-0 flex items-center  z-20">
         <LensDemoThird />
       </div>
     </div>

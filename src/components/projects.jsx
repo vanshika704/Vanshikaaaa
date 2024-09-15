@@ -2,7 +2,7 @@
 import PropTypes from "prop-types";
 import { Lens } from "./lens";
 
-import { motion } from "framer-motion";
+
 import { cn } from "../utils";
 
 export function LensDemoThird() {
@@ -10,7 +10,7 @@ export function LensDemoThird() {
     <div>
       <Lens>
         <div
-          className="w-full  relative rounded-3xl overflow-hidden max-w-md mx-auto bg-gradient-to-r from-[#1D2235] to-[#121318] p-8 my-10"
+          className="w-full mt-20 ml-20  relative rounded-3xl overflow-hidden max-w-md mx-auto bg-gradient-to-r from-[#3232334e] to-[#e3e3e54d] p-8 my-10"
         >
           <Rays />
           <Beams />
@@ -22,12 +22,7 @@ export function LensDemoThird() {
               height={500}
               className="rounded-2xl"
             />
-            <motion.div className="py-4 relative z-20">
-              <h2 className="text-white text-2xl text-left font-bold ml-20">
-               Vanshika Sharma
-              </h2>
-             
-            </motion.div>
+            
           </div>
         </div>
       </Lens>
