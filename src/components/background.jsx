@@ -8,8 +8,8 @@ import { TracingBeam } from "./tracing-beam";
 export function ShootingStarsAndStarsBackgroundDemo() {
   return (
     <div
-      className="relative w-screen"
-      style={{ height: '400vh' }} // 4 times the viewport height
+      className="relative w-screen "
+      style={{ height: '100vh' }} // 4 times the viewport height
     >
       {/* Background components */}
       <StarsBackground className="absolute inset-0 w-full h-full" />

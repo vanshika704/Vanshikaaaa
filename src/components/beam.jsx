@@ -1,6 +1,5 @@
 "use client";
 
-import { TracingBeam } from "./tracing-beam";
 import { ShootingStarsAndStarsBackgroundDemo } from "./background";
 import { FloatingDockDemo } from "../components/navbar1";
 
@@ -13,11 +12,13 @@ const TracingBeamDemo = () => {
       </div>
 
       {/* TracingBeam positioned absolutely on the left side */}
-      <TracingBeam className="fixed left-20 top-0 h-full z-50 w-10" /> {/* Use fixed positioning for visibility */}
-      
-      <div className="px-6 h-full flex flex-col mt-10 relative z-30"> {/* Ensure content also has z-30 */}
+      {/* Use fixed positioning for visibility */}
+      <div 
+        className="px-6 h-full flex flex-col mt-10 relative z-30"
+       
+      >
         {/* FloatingDockDemo component positioned above the stars background */}
-        <div className="relative mt-2 z-40"> {/* Higher z-index for FloatingDockDemo */}
+        <div className="relative mt-2 z-40">
           <FloatingDockDemo />
         </div>
       </div>
