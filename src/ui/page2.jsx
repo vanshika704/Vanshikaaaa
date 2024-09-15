@@ -17,13 +17,7 @@ function Page2() {
       {/* Container for LensDemoThird and hr */}
       <div className="absolute inset-0 flex flex-col items-center justify-center z-20 space-y-4">
         {/* Horizontal rule with shadow */}
-        {/* <hr 
-          className="w-full border-t border-white" 
-          style={{ 
-            borderWidth: '0.5px',
-            boxShadow: '0 2px 2px rgba(0, 0, 0, 0.5)' // Adjust shadow as needed
-          }} 
-        /> */}
+       
         
         {/* LensDemoThird positioned below the hr */}
         <LensDemoThird />

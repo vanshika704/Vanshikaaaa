@@ -10,26 +10,23 @@ export function LensDemoThird() {
     <div>
       <Lens>
         <div
-          className="w-full relative rounded-3xl overflow-hidden max-w-md mx-auto bg-gradient-to-r from-[#1D2235] to-[#121318] p-8 my-10"
+          className="w-full  relative rounded-3xl overflow-hidden max-w-md mx-auto bg-gradient-to-r from-[#1D2235] to-[#121318] p-8 my-10"
         >
           <Rays />
           <Beams />
           <div className="relative z-10">
             <img
-              src="src/assets/fotor-ai-20240914221650-removebg-preview (1).png"
+              src="src/assets/Untitled Project.jpg"
               alt="image"
               width={500}
               height={500}
               className="rounded-2xl"
             />
             <motion.div className="py-4 relative z-20">
-              <h2 className="text-white text-2xl text-left font-bold">
-                Apple Vision Pro
+              <h2 className="text-white text-2xl text-left font-bold ml-20">
+               Vanshika Sharma
               </h2>
-              <p className="text-neutral-200 text-left mt-4">
-                The all new apple vision pro was the best thing that happened
-                around 8 months ago, not anymore.
-              </p>
+             
             </motion.div>
           </div>
         </div>
