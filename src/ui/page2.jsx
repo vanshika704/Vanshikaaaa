@@ -15,7 +15,7 @@ function Page2() {
         <ShootingStars className="relative z-10" />
 
         {/* LensDemoThird positioned above the background */}
-        <div className="absolute inset-0 flex items-center z-20">
+        <div className="absolute inset-0 flex lg:items-center z-20">
           <LensDemoThird />
         </div>
 
@@ -31,7 +31,7 @@ function Page2() {
         {/* Lens component */}
         <div className="absolute inset-0 flex items-center justify-center z-20 p-4 lg:p-0">
           <Lens>
-            <div className="w-full mt-20 ml-0 lg:ml-96 relative rounded-3xl overflow-hidden max-w-md mx-auto bg-gradient-to-r from-[#3232334e] to-[#e3e3e54d] p-8 my-10">
+            <div className="w-full mt-20 ml-0 sm:mt-96 lg:mt-20 lg:ml-96 relative rounded-3xl overflow-hidden max-w-md mx-auto bg-gradient-to-r from-[#3232334e] to-[#e3e3e54d] p-8 my-10">
               <Rays />
               <Beams />
               <div className="relative z-10">
