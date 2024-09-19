@@ -1,53 +1,15 @@
-// "use client";
-
-// import ShootingStars from "../components/shooting-stars";
-// import StarsBackground from "../components/stars-baackground";
-// import { LensDemoThird } from "../components/projects";
-
-// function Page2() {
-//   return (
-//     <><div
-//       className="relative w-full flex"
-//       style={{ height: '100vh' }} // 4 times the viewport height
-//     >
-//       {/* Background components */}
-//       <StarsBackground className="absolute inset-0 w-full h-full" />
-//       <ShootingStars className="relative z-10" />
-
-//       {/* LensDemoThird positioned above the background */}
-//       <div className="absolute inset-0 flex items-center  z-20">
-//         <LensDemoThird />
-
-//       </div>
-//       <hr
-//         style={{
-//           boxShadow: '0 4px 15px rgba(255, 255, 255, 1)', // Strong white shadow
-//           border: 'none', // Remove default border
-//           height: '1px', // Set your desired hr height
-//           // Make the hr itself white
-//         }} />
-        
-// <div className="text-white mt-60 text-2xl font-medium w-5/6 mr-40 font-poppins">Hi, I’m Vanshika, a creative and driven software engineer specializing in building seamless, high-performance applications using Flutter, Firebase, and React. I thrive on turning ideas into reality with clean, efficient code. Currently, I’m diving into the world of Node.js to expand my backend expertise. Lets build something amazing together</div>
-//   </div> </>
-//   );
-// }
-
-// export default Page2;
 "use client";
 
 import ShootingStars from "../components/shooting-stars";
-import StarsBackground from "../components/stars-baackground" // Fixed typo in import
+import StarsBackground from "../components/stars-baackground"; // Fixed typo in import
 import { LensDemoThird } from "../components/projects";
 import PropTypes from 'prop-types'; // Added missing import for PropTypes
-
 import { Lens } from "../components/lens";
-
-
 
 function Page2() {
   return (
     <>
-      <div className="relative w-full flex" style={{ height: '100vh' }}>
+      <div className="relative w-full flex flex-col lg:flex-row" style={{ height: '100vh' }}>
         {/* Background components */}
         <StarsBackground className="absolute inset-0 w-full h-full" />
         <ShootingStars className="relative z-10" />
@@ -67,22 +29,19 @@ function Page2() {
         />
 
         {/* Lens component */}
-        <div className="absolute ml-96 inset-0 flex items-center justify-center z-20">
+        <div className="absolute inset-0 flex items-center justify-center z-20 p-4 lg:p-0">
           <Lens>
-            <div className="w-full mt-20 ml-40 relative rounded-3xl overflow-hidden max-w-md mx-auto bg-gradient-to-r from-[#3232334e] to-[#e3e3e54d] p-8 my-10">
+            <div className="w-full mt-20 ml-0 lg:ml-96 relative rounded-3xl overflow-hidden max-w-md mx-auto bg-gradient-to-r from-[#3232334e] to-[#e3e3e54d] p-8 my-10">
               <Rays />
               <Beams />
               <div className="relative z-10">
-              <div className="text-white mt-0  text-xl font-medium  mr-10 font-poppins">
-          Hi, I’m Vanshika, a creative and driven software engineer specializing in building seamless, high-performance applications using Flutter, Firebase, and React. I thrive on turning ideas into reality with clean, efficient code. Currently, I’m diving into the world of Node.js to expand my backend expertise. Lets build something amazing together!
-        </div>
+                <div className="text-white text-xl font-medium font-poppins">
+                  Hi, I’m Vanshika, a creative and driven software engineer specializing in building seamless, high-performance applications using Flutter, Firebase, and React. I thrive on turning ideas into reality with clean, efficient code. Currently, I’m diving into the world of Node.js to expand my backend expertise. Lets build something amazing together!
+                </div>
               </div>
             </div>
           </Lens>
         </div>
-
-        {/* About Me Section */}
-       
       </div>
     </>
   );
