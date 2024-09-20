@@ -89,7 +89,7 @@ function CombinedCardDemo() {
             {techImages.map((tech, index) => (
               <div
                 key={index}
-                className="flex items-center justify-center bg-transparent border border-gray-300 p-3 rounded-lg"
+                className="flex items-center justify-center bg-transparent border border-gray-300 p-2 rounded-lg"
               >
                 <img
                   src={tech.src}
