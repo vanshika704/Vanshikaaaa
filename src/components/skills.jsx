@@ -52,7 +52,7 @@ function CombinedCardDemo() {
         </CardItem>
        
         <CardItem translateZ={100} className="w-full mt-4">
-          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4 lg:gap-5">
+          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4 lg:gap-2">
             {techImages.map((tech, index) => (
               <div
                 key={index}
