@@ -26,11 +26,6 @@ function Page3() {
           <CombinedCardDemo/>
         </div>
 
-        {/* HR with styling */}
-        
-
-        {/* Lens component */}
-        
       </div>
       <hr
           style={{
