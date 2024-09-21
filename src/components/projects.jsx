@@ -1,7 +1,7 @@
 "use client";
 import PropTypes from "prop-types";
 import { Lens } from "./lens";
-
+import img1 from '../assets/Untitled Project.jpg'
 
 import { cn } from "../utils";
 
@@ -16,7 +16,7 @@ export function LensDemoThird() {
           <Beams />
           <div className="relative z-10">
             <img
-              src="src/assets/Untitled Project.jpg"
+              src={img1}
               alt="image"
               width={500}
               height={500}
