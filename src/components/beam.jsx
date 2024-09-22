@@ -12,12 +12,11 @@ const TracingBeamDemo1 = () => {
         <ShootingStarsAndStarsBackgroundDemo />
       </div>
      
-      {/* TracingBeam positioned absolutely on the left side */}
-      {/* Use fixed positioning for visibility */}
+    
       <div 
         className="px-6 h-full flex flex-col mt-10 relative z-30">
-        {/* FloatingDockDemo component positioned above the stars background */}
-        <div className="relative mt-2 z-40">
+    
+        <div className="relative lg:mt-2 sm:mt-0 sm:justify-start lg:justify-center z-40">
           <FloatingDockDemo />
         </div>
       </div>
