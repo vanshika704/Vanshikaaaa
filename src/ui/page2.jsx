@@ -9,7 +9,7 @@ import { Lens } from "../components/lens";
 function Page2() {
   return (
     <>
-      <div className="relative w-full flex flex-col lg:flex-row" style={{ height: '100vh' }}>
+      <div className="relative w-full flex flex-col lg:flex-row" style={{ height: '140vh' }}>
         {/* Background components */}
         <StarsBackground className="absolute inset-0 w-full h-full" />
         <ShootingStars className="relative z-10" />
@@ -31,11 +31,11 @@ function Page2() {
         {/* Lens component */}
         <div className="absolute inset-0 flex items-center justify-center z-20 p-4 lg:p-0">
           <Lens>
-            <div className="w-full mt-20 ml-0 sm:mt-96 lg:mt-20 lg:ml-96 relative rounded-3xl overflow-hidden max-w-md mx-auto bg-gradient-to-r from-[#3232334e] to-[#e3e3e54d] p-8 my-10">
+            <div className="w-full mt-20 ml-0 sm:mt-80 lg:mt-20 lg:ml-96 relative rounded-3xl overflow-hidden max-w-md mx-auto bg-gradient-to-r from-[#3232334e] to-[#e3e3e54d] p-8 my-10">
               <Rays />
               <Beams />
               <div className="relative z-10">
-                <div className="text-white text-xl font-medium font-poppins">
+                <div className="text-white sm:text-md sm:mt-0 lg:mt-10 lg:text-xl font-medium font-poppins">
                   Hi, I’m Vanshika, a creative and driven software engineer specializing in building seamless, high-performance applications using Flutter, Firebase, and React. I thrive on turning ideas into reality with clean, efficient code. Currently, I’m diving into the world of Node.js to expand my backend expertise. Lets build something amazing together!
                 </div>
               </div>
