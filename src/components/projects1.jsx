@@ -32,11 +32,11 @@ export function AnimatedPinDemo() {
   ];
 
   return (
-    <div className="animated-pin-demo-container">
-      <div className="text-center text-slate-800 text-5xl mt-5 mb-2 font-medium font-poppins">PROJECTS</div>
+    <div className="animated-pin-demo-container w-screen">
+      <div className="text-center text-slate-200 text-5xl mt-5 mb-2 font-medium font-poppins">PROJECTS</div>
       <Swiper
         slidesPerView={1}
-        spaceBetween={100}
+        spaceBetween={10}
         pagination={{ clickable: true }}
         navigation={true}
         autoplay={{
