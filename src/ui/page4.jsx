@@ -14,16 +14,16 @@ function Page4() {
       {/* Top hr */}
       {/* <hr className="mx-auto w-4/5 h-1 bg-white shadow-md md:w-3/5 lg:w-2/5" /> */}
 
-      <div className="relative w-full flex flex-col lg:flex-row h-{200vh}">
+      <div className="relative w-full flex flex-col lg:flex-row h-screen">
         {/* Background components */}
         <StarsBackground className="absolute inset-0 w-full h-full" />
         <ShootingStars className="relative z-10" />
 
         {/* CombinedCardDemo positioned above the background */}
-        <div className="absolute inset-0 flex justify-center lg:items-center z-20 sm:mt-96 lg:mt-0">
+        {/* <div className="absolute inset-0 flex justify-center lg:items-center z-20 sm:mt-96 lg:mt-0"> */}
        <AnimatedPinDemo/>
         </div>
-      </div>
+      {/* </div> */}
 
       {/* Bottom hr */}
       {/* <hr className="mx-auto w-4/5 h-1 bg-white shadow-md md:w-3/5 lg:w-2/5" /> */}

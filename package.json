@@ -10,13 +10,18 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@chakra-ui/react": "^2.8.2",
+    "@emotion/react": "^11.13.3",
+    "@emotion/styled": "^11.13.0",
     "@tabler/icons-react": "^3.16.0",
     "clsx": "^2.1.1",
-    "framer-motion": "^11.5.4",
+    "framer-motion": "^11.9.0",
     "prop-types": "^15.8.1",
     "react": "^18.3.1",
+    "react-book": "^0.0.1",
     "react-dom": "^18.3.1",
     "react-icons": "^5.3.0",
+    "react-pageflip": "^2.0.3",
     "react-router-dom": "^6.26.2",
     "swiper": "^11.1.14",
     "tailwind-merge": "^2.5.2"
