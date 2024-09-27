@@ -12,9 +12,15 @@ function Page4() {
   return (
     <>
       {/* Top hr */}
-      {/* <hr className="mx-auto w-1/5 h-1 bg-white shadow-md md:w-3/5 lg:w-2/5 mt-20" /> */}
-
-      <div className="relative w-full flex flex-col lg:flex-row h-screen dark:bg-neutral-900 " >
+      <hr
+          style={{
+            boxShadow: '0 4px 15px rgba(255, 255, 255, 1)', // Strong white shadow
+            border: 'none', // Remove default border
+            height: '1px',
+            marginTop:'200px' // Set your desired hr height
+          }}
+        />
+      <div className="relative w-full flex flex-col lg:flex-row h-screen sm:mt-72 lg:mt-0 " >
         {/* Background components */}
         <StarsBackground className="absolute inset-0 w-full h-full"/>
         <ShootingStars className="relative z-10" />
