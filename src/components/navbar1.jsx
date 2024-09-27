@@ -26,7 +26,7 @@ export function FloatingDockDemo() {
       href: "#",
     },
     {
-      title: "Blog",
+      title: "About",
       icon: (
         <IconFileText className="h-full w-full text-neutral-500 dark:text-neutral-300" />
       ),
@@ -44,21 +44,21 @@ export function FloatingDockDemo() {
       icon: (
         <IconBrandTwitter className="h-full w-full text-neutral-500 dark:text-neutral-300" />
       ),
-      href: "#",
+      href: "https://x.com/Vanshika310819?t=9aIZ5qobM626GtHUScS_5Q&s=08",
     },
     {
       title: "LinkedIn",
       icon: (
         <IconBrandLinkedin className="h-full w-full text-neutral-500 dark:text-neutral-300" />
       ),
-      href: "#",
+      href: "https://www.linkedin.com/in/vanshika-sharma-b1387428a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
     },
     {
       title: "GitHub",
       icon: (
         <IconBrandGithub className="h-full w-full text-neutral-500 dark:text-neutral-300" />
       ),
-      href: "#",
+      href: "https://github.com/vanshika704",
     },
   ];
 
