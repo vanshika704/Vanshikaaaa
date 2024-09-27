@@ -45,13 +45,13 @@ import img42 from '../assets/Youtube/Screenshot (233).png'
 import img43 from '../assets/Youtube/Screenshot (232).png'
 function MyBook() {
   return (
-    <div className='Projectgrid'>
+    <div className='Projectgrid bg-slate-800 mt-0 mb-0 ' style={{ height: '180vh' }} >
       <Grid
         h={{ base: 'auto', sm: '300px', md: '400px', lg: '500px' }}
         templateRows={{ base: 'repeat(5, 1fr)', sm: 'repeat(4, 1fr)', md: 'repeat(3, 1fr)', lg: 'repeat(2, 1fr)' }}
         templateColumns={{ base: 'repeat(2, 1fr)', sm: 'repeat(2, 1fr)', md: 'repeat(2, 1fr)', lg: 'repeat(5, 1fr)' }}
         gap={2}
-        marginTop={{ base: '10px', sm: '20px', md: '30px', lg: '50px' }}
+        marginTop={{ base: '10px', sm: '20px', md: '30px', lg: '0px' }}
         marginX={{ base: '5px', sm: '10px', md: '20px', lg: '30px' }}
       >
         <GridItem 
