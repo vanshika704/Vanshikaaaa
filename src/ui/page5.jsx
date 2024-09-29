@@ -23,7 +23,7 @@ function Page5() {
         <StarsBackground className="absolute inset-0 w-full h-full" />
         <ShootingStars className="relative z-10" />
      
-        <div className="absolute inset-0 flex justify-center lg:items-center z-20 sm:mt-96 lg:mt-0">
+        <div className="absolute inset-0 flex justify-center bg-transparent lg:items-center z-20 sm:mt-96 lg:mt-0">
         {/* LensDemoThird positioned above the background */}
        <Social/>
        </div>
