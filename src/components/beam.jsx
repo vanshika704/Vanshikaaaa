@@ -6,9 +6,9 @@ import { FloatingDockDemo } from "../components/navbar1";
 
 const TracingBeamDemo1 = () => {
   return (
-    <div className="relative w-full h-screen overflow-hidden">
+    <div className="relative w-full h-screen overflow-hidden bg-neutral-900">
       {/* ShootingStarsAndStarsBackgroundDemo positioned to cover the entire screen */}
-      <div className="absolute inset-0 z-0">
+      <div className="absolute inset-0 z-0 ">
         <ShootingStarsAndStarsBackgroundDemo />
       </div>
      
