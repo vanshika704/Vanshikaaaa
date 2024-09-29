@@ -85,7 +85,7 @@ function Page3() {
       {/* Top hr */}
       <hr className="mx-auto w-4/5 h-1 bg-white shadow-md md:w-3/5 lg:w-2/5" />
 
-      <div className="relative w-full flex flex-col lg:flex-row h-screen">
+      <div className="relative w-full flex flex-col lg:flex-row h-screen bg-neutral-900">
         {/* Background components */}
         <StarsBackground className="absolute inset-0 w-full h-full" />
         <ShootingStars className="relative z-10" />

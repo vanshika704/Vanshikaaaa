@@ -5,7 +5,7 @@ import img3 from '../assets/gmail.webp'
 import img4 from '../assets/png-clipart-github-logo-computer-icons-source-code-github-white-cat-like-mammal-removebg-preview.png'
 function Social() {
   return (
-    <Box className='Social' display='flex' justifyContent='center' p={5}>
+    <Box className='Social bg-neutral-900'  display='flex' justifyContent='center' p={5}>
     
       <Box className=' p-4'>
       <div className="text-center text-slate-200 text-5xl lg:mt-0  mb-2 font-medium font-poppins">CONTACT</div>
