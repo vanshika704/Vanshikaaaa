@@ -20,7 +20,7 @@ function Page4() {
             marginTop:'0px' // Set your desired hr height
           }}
         />
-      <div className="relative w-full flex flex-col lg:flex-row h-screen lg:mt-0 sm:mt-0 bg-neutral-900 " >
+      <div className="relative w-full flex flex-col lg:flex-row h-screen  bg-neutral-900 " >
         {/* Background components */}
         <StarsBackground className="absolute inset-0 w-full h-full"/>
         <ShootingStars className="relative z-10" />
