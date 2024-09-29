@@ -32,7 +32,7 @@ export function AnimatedPinDemo() {
   ];
 
   return (
-    <div className="animated-pin-demo-container w-screen h-[120vh] lg:mt-0 sm:mt-80 bg-neutral-900">
+    <div className="animated-pin-demo-container w-screen h-[120vh] lg:mt-0 sm:mt-50 bg-neutral-900">
       <div className="text-center text-slate-200 text-5xl lg:mt-0  mb-2 font-medium font-poppins">PROJECTS</div>
       <Swiper
         slidesPerView={1}
