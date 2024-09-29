@@ -10,10 +10,19 @@ import PropTypes from "prop-types"; // Added missing import for PropTypes
 function Page5() {
   return (
     <>
-     <div className="relative w-full flex flex-col lg:flex-row dark:bg-neutral-900 h-screen" >
+     <hr
+          style={{
+            boxShadow: '0 4px 15px rgba(255, 255, 255, 1)', // Strong white shadow
+            border: 'none', // Remove default border
+            height: '1px',
+            marginTop:'200px' // Set your desired hr height
+          }}
+        />
+     <div className="relative w-full flex flex-col lg:flex-row dark:bg-neutral-900 lg:h-screen sm:h-[200vh]" >
         {/* Background components */}
         <StarsBackground className="absolute inset-0 w-full h-full" />
         <ShootingStars className="relative z-10" />
+     
         <div className="absolute inset-0 flex justify-center lg:items-center z-20 sm:mt-96 lg:mt-0">
         {/* LensDemoThird positioned above the background */}
        <Social/>

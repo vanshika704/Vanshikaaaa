@@ -6,7 +6,9 @@ import img4 from '../assets/png-clipart-github-logo-computer-icons-source-code-g
 function Social() {
   return (
     <Box className='Social' display='flex' justifyContent='center' p={5}>
+    
       <Box className=' p-4'>
+      <div className="text-center text-slate-200 text-5xl lg:mt-0  mb-2 font-medium font-poppins">CONTACT</div>
         <Box className='container mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 gap-4 mt-36 ml-10'>
           {/* Twitter Card */}
           <Card maxW='sm' backgroundColor='rgba(64, 64, 64, 0.8)'>
