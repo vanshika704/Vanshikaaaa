@@ -1,6 +1,7 @@
 "use client";
 
 import ShootingStars from "../components/shooting-stars";
+import Social from "../components/social";
 import StarsBackground from "../components/stars-baackground"; // Fixed typo in import
 
 import PropTypes from "prop-types"; // Added missing import for PropTypes
@@ -9,13 +10,14 @@ import PropTypes from "prop-types"; // Added missing import for PropTypes
 function Page5() {
   return (
     <>
-     <div className="relative w-full flex flex-col lg:flex-row dark:bg-neutral-900" style={{ height: '140vh' }}>
+     <div className="relative w-full flex flex-col lg:flex-row dark:bg-neutral-900 h-screen" >
         {/* Background components */}
         <StarsBackground className="absolute inset-0 w-full h-full" />
         <ShootingStars className="relative z-10" />
-
+        <div className="absolute inset-0 flex justify-center lg:items-center z-20 sm:mt-96 lg:mt-0">
         {/* LensDemoThird positioned above the background */}
-       
+       <Social/>
+       </div>
         {/* HR with styling */}
     
       </div>
