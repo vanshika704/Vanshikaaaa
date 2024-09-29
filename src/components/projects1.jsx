@@ -32,7 +32,7 @@ export function AnimatedPinDemo() {
   ];
 
   return (
-    <div className="animated-pin-demo-container w-screen h-[120vh] lg:mt-0 sm:mt-0 bg-neutral-900">
+    <div className="animated-pin-demo-container w-screen h-[120vh]  bg-neutral-900">
       <div className="text-center text-slate-200 text-5xl lg:mt-0  mb-2 font-medium font-poppins">PROJECTS</div>
       <Swiper
         slidesPerView={1}
@@ -56,7 +56,7 @@ export function AnimatedPinDemo() {
           <SwiperSlide key={index}>
             <div className="flex items-center justify-center h-[30rem] w-full">
               <PinContainer title={slide.title}>
-                <Link to="/aboutme">
+                <Link to="/books">
                   <div className="relative flex p-2 w-[20rem] h-[20rem] overflow-hidden">
                     <img
                       src={slide.src}
