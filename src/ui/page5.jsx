@@ -18,7 +18,7 @@ function Page5() {
             // marginTop:'200px' // Set your desired hr height
           }}
         />
-     <div className="relative w-full flex flex-col lg:flex-row dark:bg-neutral-900 lg:h-screen sm:h-[400vh]" >
+     <div className="relative w-full flex flex-col lg:flex-row dark:bg-neutral-900 lg:h-screen sm:h-[200vh]" >
         {/* Background components */}
         <StarsBackground className="absolute inset-0 w-full h-full" />
         <ShootingStars className="relative z-10" />
