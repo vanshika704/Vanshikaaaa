@@ -45,7 +45,7 @@ import img42 from '../assets/Youtube/Screenshot (233).png'
 import img43 from '../assets/Youtube/Screenshot (232).png'
 function MyBook() {
   return (
-    <div className='Projectgrid bg-slate-800 mt-0 mb-0 ' style={{ height: '180vh' }} >
+    <div className='Projectgrid bg-neutral-900 mt-0 mb-0 ' style={{ height: '180vh' }} >
       <Grid
         h={{ base: 'auto', sm: '300px', md: '400px', lg: '500px' }}
         templateRows={{ base: 'repeat(5, 1fr)', sm: 'repeat(4, 1fr)', md: 'repeat(3, 1fr)', lg: 'repeat(2, 1fr)' }}

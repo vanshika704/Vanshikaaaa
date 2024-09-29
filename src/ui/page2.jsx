@@ -9,7 +9,7 @@ import { Lens } from "../components/lens";
 function Page2() {
   return (
     <>
-      <div className="relative w-full flex flex-col lg:flex-row" style={{ height: '140vh' }}>
+      <div className="relative w-full flex flex-col lg:flex-row bg-neutral-900" style={{ height: '140vh' }}>
         {/* Background components */}
         <StarsBackground className="absolute inset-0 w-full h-full" />
         <ShootingStars className="relative z-10" />
