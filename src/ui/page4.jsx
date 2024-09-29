@@ -29,10 +29,11 @@ function Page4() {
         <div className="absolute inset-0 flex justify-center  lg:items-center z-20 sm:mt-96 lg:mt-0  w-screen">
        <AnimatedPinDemo />
         </div>
+    
       </div>
-
+      <hr className="mx-auto w-4/5 h-1 bg-white shadow-md md:w-1/5 lg:w-2/5 z-30"  />
      
-      {/* <hr className="mx-auto w-4/5 h-1 bg-white shadow-md md:w-1/5 lg:w-2/5" /> */}
+  
     </>
   );
 }
