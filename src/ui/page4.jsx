@@ -17,7 +17,7 @@ function Page4() {
             boxShadow: '0 4px 15px rgba(255, 255, 255, 1)', // Strong white shadow
             border: 'none', // Remove default border
             height: '1px',
-            marginTop:'200px' // Set your desired hr height
+            marginTop:'150px' // Set your desired hr height
           }}
         />
       <div className="relative w-full flex flex-col lg:flex-row h-screen lg:mt-0 sm:mt-0 bg-neutral-900 " >
