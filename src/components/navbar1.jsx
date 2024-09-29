@@ -9,6 +9,7 @@ import {
   IconSettings,
 } from "@tabler/icons-react";
 
+import MyBook from "./mybook";
 export function FloatingDockDemo() {
   const links = [
     {
@@ -23,7 +24,7 @@ export function FloatingDockDemo() {
       icon: (
         <IconFileCode className="h-full w-full text-neutral-500 dark:text-neutral-300" />
       ),
-      href: "#",
+      href: {MyBook},
     },
     {
       title: "About",
