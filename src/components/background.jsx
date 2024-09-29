@@ -3,7 +3,7 @@
 import { FlipWordsDemo } from "./iam";
 import ShootingStars from "./shooting-stars";
 import StarsBackground from "./stars-baackground";
-
+import img1 from "../assets/fotor-ai-20240914221650-removebg-preview (1).png"
 export function ShootingStarsAndStarsBackgroundDemo() {
   return (
     <div
@@ -22,7 +22,7 @@ export function ShootingStarsAndStarsBackgroundDemo() {
         {/* Circular Image */}
         <div className="w-48 h-48 sm:w-52 sm:h-52 sm:mt-20 sm:mr-52 md:w-72 md:h-72 md:mt-20 lg:w-96 lg:h-96 mt-8 lg:mt-32 lg:ml-96 absolute right-10">
           <img
-            src="src/assets/fotor-ai-20240914221650-removebg-preview (1).png" // Replace with your image path
+            src={img1} // Replace with your image path
             alt="Circular Image"
             className="rounded-full object-cover w-full h-full"
           />
