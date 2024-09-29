@@ -130,7 +130,7 @@ import ShootingStars from './shooting-stars';
 
 function Social() {
   return (
-    <div className="relative w-full dark:bg-neutral-900 lg:h-screen sm:h-[200vh]">
+    <div className="relative w-full dark:bg-neutral-900 lg:h-screen ">
       {/* Background components */}
       <StarsBackground className="absolute inset-0 w-full h-full z-0" />
       <ShootingStars className="absolute inset-0 w-full h-full z-0" />
