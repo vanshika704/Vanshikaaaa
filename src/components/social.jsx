@@ -132,8 +132,8 @@ function Social() {
   return (
     <div className="relative w-full dark:bg-neutral-900 lg:h-screen ">
       {/* Background components */}
-      <StarsBackground className="absolute inset-0 w-full h-full z-0" />
-      <ShootingStars className="absolute inset-0 w-full h-full z-0" />
+      <StarsBackground className="absolute inset-0 w-screen h-[220vh] z-0" />
+      <ShootingStars className="absolute inset-0 w-screen h-[220vh] z-0" />
 
       {/* Cards on top of the background */}
       <Box className='Social relative z-10 bg-transparent' display='flex' justifyContent='center' p={5}>
