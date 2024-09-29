@@ -13,7 +13,7 @@ function Page5() {
    
      <div className="relative w-screen flex flex-col lg:flex-row bg-neutral-900 lg:h-screen sm:h-[200vh]" >
         {/* Background components */}
-        <StarsBackground className="absolute inset-0 w-full h-full" />
+        <StarsBackground className="absolute inset-0 w-screen h-screen" />
         <ShootingStars className="relative z-10" />
      
         <div className="absolute inset-0 flex justify-center w-screen  lg:items-center z-20 sm:mt-0 lg:mt-0">

@@ -10,6 +10,6 @@ import Page5 from "./page5";
 
 
 function Page1 (){
-    return (<><div className="dark:bg-neutral-900 "   style={{ height: '750vh' }}><TracingBeamDemo1/><Page2/><Page3/><Page4/><Page5/></div></>)
+    return (<><div className="dark:bg-neutral-900 "   style={{ height: '700vh' }}><TracingBeamDemo1/><Page2/><Page3/><Page4/><Page5/></div></>)
 }
 export default Page1;
