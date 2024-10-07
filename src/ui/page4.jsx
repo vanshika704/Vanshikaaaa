@@ -1,5 +1,5 @@
 "use client";
-
+//shooting stars background
 import ShootingStars from "../components/shooting-stars";
 import StarsBackground from "../components/stars-baackground"; // Fixed typo in import
 
