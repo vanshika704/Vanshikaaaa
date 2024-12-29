@@ -116,7 +116,7 @@ export function FloatingDockDemo() {
       icon: (
         <IconSettings className="h-full w-full text-neutral-500 dark:text-neutral-300" />
       ),
-      href: "/resume",
+      href: "https://drive.google.com/file/d/1bBHiVUjSR5Z7ZO1Xhmroxzo8cN5zzRTJ/view?usp=sharing",
       isExternal: false,
     },
     {
